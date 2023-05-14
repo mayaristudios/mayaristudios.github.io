@@ -161,7 +161,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 60px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -172,7 +172,7 @@ section {
 #header.header-scrolled {
   /* background: #1d443f; */
   background: #000;
-  height: 60px;
+  height: 40px;
 }
 
 #header .logo h1 {

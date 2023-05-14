@@ -14,6 +14,7 @@ body {
   font-family: 'Roboto', sans-serif;
   /* color: #777; */
   color: #000;
+  font-weight: 500;
 }
 
 a {
@@ -45,7 +46,8 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f9f8;
+  /* background-color: #f2f9f8; */
+  background-color: #eee;
 }
 
 .section-title {
@@ -425,7 +427,7 @@ section {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/bg3.png") top center;
+  background: url("../img/bg4.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -80px;
@@ -568,7 +570,8 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  /* color: #343a40; */
+  color: #000;
   transition: 0.3s;
 }
 
@@ -610,7 +613,7 @@ section {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 6px 28px 10px 28px;
+  padding: 10px 28px 10px 28px;
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
@@ -829,7 +832,8 @@ section {
 }
 
 .faq .faq-list .collapsed {
-  color: #343a40;
+  /* color: #343a40; */
+  color: #000;
 }
 
 .faq .faq-list .collapsed:hover {

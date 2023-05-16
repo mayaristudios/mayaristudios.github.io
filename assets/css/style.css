@@ -86,7 +86,12 @@ section {
   padding: 60px 0;
 }
 
-.section-bg {
+.section-bg-white {
+  /* background-color: #f2f9f8; */
+  background-color: #eee;
+}
+
+.section-bg-gray {
   /* background-color: #f2f9f8; */
   background-color: #eee;
 }
@@ -480,12 +485,25 @@ font-size: 26px;
   position: relative;
   margin-bottom: -80px;
   background-attachment: fixed;
-  max-width: 100vw;
-  
-  
-/*   background: linear-gradient(rgba(0,0,0, 0.5), rgba(30,30,30, 0.5)), url("../img/call-to-action-bg.jpg") fixed center center;
+  /* max-width: 100vw; */
+  /*   background: linear-gradient(rgba(0,0,0, 0.5), rgba(30,30,30, 0.5)), url("../img/call-to-action-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0; */
+}
+
+#hero:after{
+	  content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("../img/bg4.jpg") center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 #hero:before {
@@ -578,7 +596,6 @@ font-size: 26px;
   font-weight: 700;
   font-size: 26px;
   margin-bottom: .7rem;
-  
 }
 
 .about ul {

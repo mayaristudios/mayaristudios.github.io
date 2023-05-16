@@ -96,6 +96,11 @@ section {
   background-color: #eee;
 }
 
+.section-bg-black {
+  /* background-color: #f2f9f8; */
+  background-color: #000;
+}
+
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -484,11 +489,6 @@ font-size: 26px;
   background-size: cover;
   position: relative;
   margin-bottom: -80px;
-  /* background-attachment: fixed; */
-  /* max-width: 100vw; */
-  /*   background: linear-gradient(rgba(0,0,0, 0.5), rgba(30,30,30, 0.5)), url("../img/call-to-action-bg.jpg") fixed center center;
-  background-size: cover;
-  padding: 60px 0; */
 }
 
 #hero:before {
@@ -631,7 +631,7 @@ font-size: 26px;
 
 .services .title a {
   /* color: #343a40; */
-  color: #000;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -640,6 +640,47 @@ font-size: 26px;
 }
 
 .services .description {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# Guide
+--------------------------------------------------------------*/
+.guide .icon-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.guide .icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.guide .icon i {
+  color: #70b9b0;
+  font-size: 42px;
+}
+
+.guide .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  /* text-transform: uppercase; */
+}
+
+.guide .title a {
+  /* color: #343a40; */
+  color: #000;
+  transition: 0.3s;
+}
+
+.guide .icon-box:hover .title a {
+  color: #70b9b0;
+}
+
+.guide .description {
   line-height: 24px;
   font-size: 14px;
 }

@@ -1016,7 +1016,7 @@ font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
   /* color: #70b9b0; */
-  color: #000;
+  color: white;
 }
 
 .contact .contact-about p {
@@ -1025,7 +1025,7 @@ font-size: 26px;
   /* font-family: "Lato", sans-serif; */
   font-family: 'Roboto', sans-serif;
   /* color: #888; */
-  color: #000;
+  color: white;
 }
 
 .contact .social-links {
@@ -1050,11 +1050,11 @@ font-size: 26px;
 
 .contact .social-links a:hover {
   background: #70b9b0;
-  color: #fff;
+  color: white;
 }
 
 .contact .info {
-  color: #777;
+  color: white;
 }
 
 .contact .info i {

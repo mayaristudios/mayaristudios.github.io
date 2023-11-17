@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   /* font-family: "Open Sans", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /* color: #777; */
   color: #000;
   font-weight: 500;
@@ -35,7 +35,7 @@ h5,
 h6,
 .font-primary {
   /* font-family: "Lato", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .fade-in-text-slow {
@@ -287,7 +287,7 @@ font-size: 26px;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   /* color: #d2ece9; */
   color: #b4b8b7; 
@@ -535,7 +535,7 @@ font-size: 26px;
 
 #hero .btn-get-started {
   /* font-family: "Lato", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -709,7 +709,7 @@ font-size: 26px;
 
 .call-to-action .cta-btn {
   /* font-family: "Lato", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -907,7 +907,7 @@ font-size: 26px;
   display: block;
   position: relative;
   /* font-family: "Lato", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -1023,7 +1023,7 @@ font-size: 26px;
   font-size: 14px;
   line-height: 24px;
   /* font-family: "Lato", sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /* color: #888; */
   color: white;
 }
